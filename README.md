@@ -3,24 +3,34 @@ Urban Parking Finder Web App
 
 # 🚗 Urban Parking Finder
 
-## Problem
-Urban areas face parking issues due to lack of real-time information.
+## 📌 Problem
+Urban areas face difficulty in finding parking spaces due to lack of real-time information.
 
-## Solution
-This web app helps users:
-- View parking availability
+## 💡 Solution
+This project provides a web-based system to:
+- View parking locations
+- Check available slots
 - Book parking slots
 
 ## Tech Stack
-- HTML, CSS, JavaScript
+- HTML
+- CSS
+- JavaScript
 - PHP
 - MySQL
 
 ## Features
-- View parking locations
-- Check available slots
-- Book parking
+- Display parking availability
+- Dynamic slot booking
+- Backend database integration
 
-## Future Improvements
+##  How it works
+1. Fetch parking data from database
+2. Display available slots
+3. User clicks "Book"
+4. Slot count updates
+
+##  Future Improvements
 - Google Maps integration
-- Real-time tracking
+- Real-time IoT-based tracking
+- Mobile app version
