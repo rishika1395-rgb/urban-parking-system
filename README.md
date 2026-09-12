@@ -1,34 +1,56 @@
-# urban-parking-system
-Urban Parking Finder Web App
 
 # 🚗 Urban Parking Finder
 
-## 📌 Problem
-Urban areas face difficulty in finding parking spaces due to lack of real-time information.
+## 📌 Project Overview
 
-## 💡 Solution
-This project provides a web-based system to:
-- View parking locations
-- Check available slots
-- Book parking slots
+Urban Parking Finder is a web-based parking slot booking system designed to help users find available parking spaces and book a parking slot for a selected date and time.
 
-## Tech Stack
-- HTML
-- CSS
-- JavaScript
-- PHP
-- MySQL
+The system displays parking locations along with the number of available parking slots. Users can select a parking location, enter their booking date, start time, and end time, and book an available slot.
 
-## Features
-- Display parking availability
-- Dynamic slot booking
-- Backend database integration
+## 🎯 Objectives
 
-##  How it works
-1. Fetch parking data from database
-2. Display available slots
-3. User clicks "Book"
-4. Slot count updates
+- Find available parking spaces easily.
+- Display the number of available parking slots.
+- Allow users to book a parking slot.
+- Store booking details in a database.
+- Manage parking slot availability.
+- Update the available slot count after a booking.
+- Maintain booking status and completion information.
+
+## ✨ Features
+
+- 🅿️ View available parking locations
+- 📊 Display available parking slots
+- 📅 Select booking date
+- 🕐 Select start and end time
+- 🎫 Book a parking slot
+- 🆔 Generate a booking ID
+- 💾 Store booking details in MySQL
+- 🔄 Update parking availability
+- ✅ Mark completed parking bookings
+- 🌐 Web-based system
+
+## 🛠️ Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL
+- **Hosting:** InfinityFree
+- **Database Management:** phpMyAdmin
+
+## 📂 Project Structure
+
+```text
+Urban-Parking-Finder/
+│
+├── index.html
+├── style.css
+├── script.js
+├── db.php
+├── get_parking.php
+├── book_slot.php
+├── complete_slot.php
+└── README.md
 
 ##  Future Improvements
 - Google Maps integration
